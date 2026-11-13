@@ -15,4 +15,7 @@ agents:
       source: harness/good-allowed.yaml
     - name: no-allow
       source: https://raw.githubusercontent.com/fullsend-ai-test/bt-01a1d5de89a47447bd79ca6a30240c09-allow-f482f059-url-harness-host/main/harness/no-allow.yaml#sha256=2792c8336d0bd4bf216c2629275bfdbc353ac0a599a00013551a895e63423b88
+allowed_remote_resources:
+    - https://raw.githubusercontent.com/fullsend-ai/fullsend/
+    - https://raw.githubusercontent.com/fullsend-ai/agents/
 mint_url: https://bt-9f892f82-bt-mint.fullsend-ai.workers.dev
